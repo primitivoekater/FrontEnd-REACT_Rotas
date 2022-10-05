@@ -1,27 +1,83 @@
-# FrontEnd-REACT: Rotas
+![](https://i.imgur.com/xG74tOh.png)
 
-  <img height="250px" src="https://media-exp1.licdn.com/dms/image/C4E16AQHipPThoAbI7Q/profile-displaybackgroundimage-shrink_200_800/0/1660535984093?e=1668038400&v=beta&t=GwIiIeFOO__T8WxEeMt3nHIDhOlH61w5XiFT1Cx1W38"/>
-  
-  ---
-<div>
-<div><p1> 
+# Rotas no frontend
 
-Criando duas páginas  utilizando react em que exista uma rota segura entre elas.
+## Exercícios de classe 🏫
 
-##                                                                      Tecnologias Utilizadas:
-linguagem : <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"><br><br>
-Framework:  <img align="center" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"><br><br>
-IDE: <img align="center" src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"><br><br> 
-Packeges: <img align="center" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"><br><br>
-Design: <img align ="center" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><br>
+1. **Exercício 1** - 
+
+    Criar duas páginas e fazer a navegação entre elas usando o **react-router-dom**
+        - SignIn 
+        - Main
+
+
+
+    Regras:
+    - As páginas precisam conter uma navegação, ou seja, quando estiver na de **SignIn** um link deve me proporcionar ser redirecionado para a página **Main** e vice-versa.
+
+
 ---
 
-_Tornando público os exercícios introdutórios de FrontEnd fornecidos pela Cubos Academy no curso de desenvolvimento de software._
 
-<h3 align="left">Contact me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/vitor-a-monteiro/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" width="100" /></a>
-<a href = "mailto:primitivo.3131@gmail.com"><img align="center" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" height="30" width="100" /></a>
+2. **Exercício 2** - 
+
+    Criar duas páginas e fazer a navegação entre elas usando o **react-router-dom**
+        - SignIn 
+        - Main
 
 
+    Regras:
+    - As páginas precisam conter uma navegação, ou seja, quando estiver na de **SignIn** um link deve me proporcionar ser redirecionado para a página **Main** e vice-versa.
+    - A página **Main** deve ser uma rota protegida, por isso é necessário criar a estrutura de rotas protegidas, sendo que quando um usuário não estiver autenticado, ele não poderá acessar a página **Main**.
+
+    Dica: Utilize a lógica de criar uma constante **isAuthenticated** = true/false.
+
+
+---
+
+3. **Exercício 3** - Esse exercício é um **mini desafio**, nele você irá praticar tudo o que aprendeu nessa aula e no curso.
+    
+    Regras:
+    - Pensar bem na componentização do projeto 
+    - Seguir o layout do figma
+    - Criar 3 paǵinas:
+        - Sign In (Página de login, ao clicar no botão login deve redirecionar o usuáro para página **Main**)
+        ![](https://i.imgur.com/l6zTOmS.png)
+ 
+        - Main (Página onde serão exidas as lista de professores, ao clicar em um card de professor, redirecionar o usuário para a página **TeacherDetail**)
+        ![](https://i.imgur.com/PgQFRNY.png)
+ 
+        - TeacherDetail (Página onde será detalhado cada professor, para essa página ser exibida, é preciso clicar em um professor na página de **Main**)
+        ![](https://i.imgur.com/I2hOJmx.png)
+
+
+---
+    
+
+
+**Obs.:** No exercício 3 você poderá usar o figma para te orientar quanto ao layout, dentro desse repositório nós temos um arquivo chamado **figma.fig**, para importá-lo é muito simples, veja nas imagens abaixo:
+
+- Abra o figma e clique em **import file**, escolha o arquivo e clique em OK.
+
+
+![](https://i.imgur.com/5jKmg1r.jpg)
+
+- Pronto, quando terminar de importar o projeto aparecerá na sua tela principal do figma.
+
+
+
+---
+
+Obs.: Em caso de dúvidas, lembre-se de assistir os vídeos de orientação.
+
+---
+
+Preencha a checklist para fazer os exercícios:
+
+-   [ ] Fazer o fork do repositório para sua conta
+-   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
+-   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
+-   [ ] Copiar a url do seu fork e enviar na plataforma
+
+###### tags: `módulo 3` `front-end` `React`
 
